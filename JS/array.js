@@ -46,57 +46,35 @@ console.log(plocioVerte);
 
 
 const irankis = ['plaktukas', 'reples', 'pjuklas', 'reples', 'atsuktuvas'];
-console.log(irankis)
+console.log(irankis);
 
-const virtuve = ['kranas', 'keptuve', 'puodas', 'virdulys', 'saukstas']
-console.log(virtuve)
+const virtuve = ['kranas', 'keptuve', 'puodas', 'virdulys', 'saukstas'];
+console.log(virtuve);
 
-const gyvunas = ['katinas', 'suo', 'ozka', 'karve', 'arklys']
-console.log(gyvunas)
+const gyvunas = ['katinas', 'suo', 'ozka', 'karve', 'arklys'];
+console.log(gyvunas);
 
-// 4.	Sujungti sąrašų vertes, kurių tipas yra tekstai, nuo sąrašo galo iki pradžios taip, jog tarp jų būtų kablelis ir tarpas
+// VK4.	Sujungti sąrašų vertes, kurių tipas yra tekstai, nuo sąrašo galo iki pradžios taip, jog tarp jų būtų kablelis ir tarpas
+
+let reversed = irankis.reverse();
+console.log(reversed);
+
+const irankisSuma = `${irankis[4]}, ${irankis[3]}, ${irankis[2]}, ${irankis[1]}, ${irankis[0]}`;
+console.log(irankisSuma);
+
+const virtuveSuma = `${virtuve[4]}, ${virtuve[3]}, ${virtuve[2]}, ${virtuve[1]}, ${virtuve[0]}`;
+console.log(virtuveSuma);
+
+const gyvunasSuma = `${gyvunas[4]}, ${gyvunas[3]}, ${gyvunas[2]}, ${gyvunas[1]}, ${gyvunas[0]}`;
+console.log(gyvunasSuma);
 
 
-let sakinys = 'Visi irankiai: ';
-let index = 0;
+// KP4.	Išvesti sąrašo tipo kintamųjų ilgius
 
-sakinys += irankis [index];
-index += 1;
-sakinys += ', ';
 
-sakinys += irankis [index];
-index += 1;
-sakinys += ', ';
+console.log(plotis.length)
 
-sakinys += irankis [index];
-index += 1;
-sakinys += ', ';
-
-sakinys += irankis [index];
-index += 1;
-sakinys += ', ';
-
-sakinys += irankis [index];
-index += 1;
-sakinys += ', ';
-
-console.log(sakinys)
-
-let sakinys2 = 'Visi irankiai: ' + irankis.join(' ');
-console.log(sakinys2);
-
-let sakinys5 = `Visi irankiai: ${irankis.join(' ')}`;
-console.log(sakinys5)
-
-// let reversed = irankis.reverse();
-// console.log(reversed);
-
-let sakinys3 = 'Visi virtuveje: ' + virtuve.join(' ');
-console.log(sakinys3)
-
-let sakinys4 = 'Visi gyvunai: ' + gyvunas.join(' ');
-console.log(sakinys4)
-
+//? ar teisingai supratau klausima ?
 
 
 

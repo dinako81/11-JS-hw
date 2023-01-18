@@ -18,11 +18,16 @@ if (7 > 22) {
 }
 
 
+//kuris mažesnis
+
+if (7 < 22) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą');
+}
+
 
 console.log('----------')
-
-const a = 1;
-const b = 1;
 
 
 // c.	ar jie lygūs
@@ -32,5 +37,9 @@ if(6 = 6) {
 } else{
     console.log('Bandykite kitą kartą');
 }
+
+
+
+console.clear()
 
 

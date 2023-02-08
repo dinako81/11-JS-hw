@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "skaitmenuKiekisSkaiciuje": "nodemon ./JS/skaitmenuKiekisSkaiciuje.js",
     "for": "nodemon ./JS/for.js",
     "if": "nodemon ./JS/if.js",
     "array": "nodemon ./JS/array.js",

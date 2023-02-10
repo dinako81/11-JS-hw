@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "isrankiotiraides": "nodemon ./JS/isrankiotiraides.js",
     "biggestnum": "nodemon ./JS/biggestnum.js",
     "skaitmenuKiekisSkaiciuje": "nodemon ./JS/skaitmenuKiekisSkaiciuje.js",
     "for": "nodemon ./JS/for.js",

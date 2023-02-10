@@ -28,6 +28,23 @@ console.log(lubos);
 const grindys = 'pilkos';
 console.log(grindys);
 
+/************************************/
+let num = 5;
 
+if (num > 0) {
+    console.log("number is positive")
+} else if (num < 0) {
+    console.log("number is negative")
+} else {
+    console.log("number is null")
+}
+/*************************/
+let num1 = 2;
 
-
+if (num1 > 0) {
+    alert("number is positive")
+} else if (num1 < 0) {
+    alert("number is negative")
+} else {
+    alert("number is null")
+}

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "uzd": "nodemon ./JS/uzd.js",
     "objects": "nodemon ./JS/objekts.js",
     "isrankiotiraides": "nodemon ./JS/isrankiotiraides.js",
     "biggestnum": "nodemon ./JS/biggestnum.js",
